@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Filmes</title>
 </head>
+
 <body>
-    <body style='background:#FFC0CB'></body>
-<header>
-        <?php include("menu.php"); ?>
-    </header> 
-    <hr>
+    <!-- <body style='background:#7CFC00'></body> -->
+
+    <header>
+    <?php include("menu.php"); ?>
+    </header>

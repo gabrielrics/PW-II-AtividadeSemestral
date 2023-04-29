@@ -1,0 +1,19 @@
+Create database filme;
+use filme;
+
+
+create table tbGenero(
+	idGenero int primary key auto_increment,
+	genero varchar(40)
+);
+
+create table tbFilme(
+	idFilme int primary key auto_increment,
+	filme varchar(100),
+    descricao varchar(300),
+    diretor varchar(100),
+    dataLancamento varchar(25),
+    duracao int,
+	idGenero int,
+	foreign key (idGenero) references tbGenero(idGenero)
+);
