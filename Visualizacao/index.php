@@ -1,9 +1,19 @@
-<?php include('cabecalho.php'); ?>
+<?php //include('cabecalho.php'); ?>
 
-    <body style='background:#060d17'></body>
-    <h1> Gabriel Henrique Souza Ribeiro </h1>   
+<link rel="stylesheet" href="../CSS/style.css">
 
-<?php include('rodape.php'); ?>    
+
+<body>
+    <h1> Gabriel Henrique Souza Ribeiro </h1>  
+    <?php include("menu.php"); ?>
+ 
+</body>
+    
+
+    
+
+
+<?php //include('rodape.php'); ?>    
 
 <!-- Framework para ajudar
     https://getbootstrap.com/docs/5.3/components/accordion/
