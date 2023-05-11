@@ -4,27 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Administrador.css">
+
     <title>Document</title>
 </head>
+
+   
     <body>
+
+
+    
+
 
         <section>
 
             <form action="contato-salvar.php" method="post">      
                 <div>
-                    <input type="text" placeholder="Nome" name="txNome" />
+                    <input type="text" placeholder="Nome do filme" name="txNome" />
                 </div>		
 
                 <div>
-                    <input type="text" placeholder="E-mail" name="txEmail" />
+                    <input type="text" placeholder="Diretor" name="txEmail" />
                 </div>		
 
                 <div>
-                    <input type="text" placeholder="Assunto" name="txAssunto" />
+                    <input type="text" placeholder="Onde ver" name="txAssunto" />
                 </div>		
 
                 <div>
-                    <textarea placeholder="Mensagem" name="txMensagem"></textarea>
+                    <textarea placeholder="Descrição" name="txMensagem"></textarea>
                 </div>
 
                 <div>
