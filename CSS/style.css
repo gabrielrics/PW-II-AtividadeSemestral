@@ -1,16 +1,47 @@
-/*card que vira*/
-
-
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #30edf4;
+    background-color: purple;
+    margin:0;
+    /* background-image: url(../Images/uni.png); */
   }
+
+  footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  h1{
+    text-align: center;
+    color: #30edf4;
+  
+  }
+
+  h2{
+    color: white;
+  }
+
+  p{
+    color: white;
+    size: 10px;
+  }
+
+  .Header-old {
+    z-index: 40;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    color: #fff;
+    background-color: black;
+}
+
+  /*card que vira*/
   
   .flip-card {
     background-color: transparent;
     width: 300px;
     height: 300px;
     perspective: 1000px;
+    margin: 20px;
   }
   
   .flip-card-inner {
@@ -39,6 +70,7 @@ body {
     background-color: #bbb;
     color: black;
   }
+  
   
   .flip-card-back {
     background-color: #2980b9;
@@ -71,7 +103,7 @@ ul li a{
 }
 
 ul:hover li a{
-  color: #30edf4;
+  color: purple;
 }
 
 ul:hover li a:not(:hover){

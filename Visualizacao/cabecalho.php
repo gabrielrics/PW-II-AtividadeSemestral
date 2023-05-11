@@ -7,17 +7,24 @@
     <title>Filmes</title>
     <link href="../CSS/style.css" rel="stylesheet">
 
+    <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-3" role="banner"> 
+    <h1> PURPLE -- UNIVERSE </h1>
+
+    <?php include("menu.php"); ?>
+    </header>
+
+    
 </head>
 
 
 
 <body>
 
+ 
 
 
+    
 
     <!-- <body style='background:#7CFC00'></body> -->
 
-    <header>
-    <?php include("menu.php"); ?>
-    </header>
+  
