@@ -6,33 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/Administrador.css">
 
-    <title>Document</title>
+    <title>Administrador</title>
+    <?php include('cabecalho.php'); ?>
 </head>
-
-   
     <body>
-
-
-    
-
 
         <section>
 
-            <form action="contato-salvar.php" method="post">      
+            <form action="contato-alterar.php" method="post">      
+            <div>
+                    <input type="hidden"  name="txIdContato" value="<?php echo @$_GET['idFilme']; ?>" />
+                </div>	
+
                 <div>
-                    <input type="text" placeholder="Nome do filme" name="txNome" />
+                    <input type="text" placeholder="Nome do filme" name="txNomeFilme" value="<?php echo @$_GET['NomeFilme']; ?>" />
                 </div>		
 
                 <div>
-                    <input type="text" placeholder="Diretor" name="txEmail" />
+                    <input type="text" placeholder="Diretor" name="txDiretor" value="<?php echo @$_GET['Diretor']; ?>" />
                 </div>		
 
                 <div>
-                    <input type="text" placeholder="Onde ver" name="txAssunto" />
+                    <input type="text" placeholder="Onde ver" name="txOndeVer" value="<?php echo @$_GET['Onde ver']; ?>" />
                 </div>		
 
                 <div>
-                    <textarea placeholder="Descrição" name="txMensagem"></textarea>
+                    <textarea placeholder="Sinopse" name="txSinopse">
+                    <?php echo @$_GET['Sinopse']; ?>"
+                    </textarea>
                 </div>
 
                 <div>
@@ -42,5 +43,6 @@
             
         </section>
         
+ 
     </body>
 </html>

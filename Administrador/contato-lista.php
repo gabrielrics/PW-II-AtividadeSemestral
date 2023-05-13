@@ -16,17 +16,19 @@
         <table class="table table-striped">
             <thead>
             <tr>
-                <th scope="col">Id</th>
-                <th scope="col">Nome</th>
-                <th scope="col">E-mail</th>
-                <th scope="col">Assunto</th>
-                <th scope="col">Mensagem</th>			
+                <th scope="col">NomeFilme</th>
+                <th scope="col">Diretor</th>
+                <th scope="col">OndeVer</th>
+                <th scope="col">Sinopse</th>
                 <th scope="col">Ações</th>
+
+                
+                
             </tr>
             </thead>
             <tbody>
             <?php
-                $stmt = $pdo->prepare("select * from tbcontato");	
+                $stmt = $pdo->prepare("select * from tbfilme");	
                 $stmt ->execute();
                 
                 while($row = $stmt ->fetch(PDO::FETCH_BOTH)){
@@ -36,7 +38,9 @@
                     echo "<td> $row[2] </td>";						
                     echo "<td> $row[3] </td>";											
                     echo "<td> $row[4] </td>";
+                    echo "<td> $row[5] </td>";
                     echo "<td> 
+                            <a href='?id=$row[0]&nomefilme=$row[1]&diretor=$row[2]&ondever=$row[3]&Sinopse=$row[4]&acoes=$row[5]'> Editar </a>
                             <a href='contato-remover.php?id=$row[0]'> Remover </a>
                           </td>";
                   echo "</tr>";

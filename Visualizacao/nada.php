@@ -30,7 +30,121 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="boneco-do-mal.webp" style="width:300px;height:300px;">
+      <img src="../images/boneco-do-mal.webp" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Boneco do mal</h1> 
+      <p>Direção: William Brent Bell</p> 
+      <p>Roteiro: Stacey Menear</p>
+      <p> Onde assistir?: Netflix e Amazon Prime</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../images/boneco-do-mal.webp" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Boneco do mal</h1> 
+      <p>Direção: William Brent Bell</p> 
+      <p>Roteiro: Stacey Menear</p>
+      <p> Onde assistir?: Netflix e Amazon Prime</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../images/boneco-do-mal.webp" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Boneco do mal</h1> 
+      <p>Direção: William Brent Bell</p> 
+      <p>Roteiro: Stacey Menear</p>
+      <p> Onde assistir?: Netflix e Amazon Prime</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../images/boneco-do-mal.webp" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Boneco do mal</h1> 
+      <p>Direção: William Brent Bell</p> 
+      <p>Roteiro: Stacey Menear</p>
+      <p> Onde assistir?: Netflix e Amazon Prime</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../images/boneco-do-mal.webp" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Boneco do mal</h1> 
+      <p>Direção: William Brent Bell</p> 
+      <p>Roteiro: Stacey Menear</p>
+      <p> Onde assistir?: Netflix e Amazon Prime</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../images/boneco-do-mal.webp" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Boneco do mal</h1> 
+      <p>Direção: William Brent Bell</p> 
+      <p>Roteiro: Stacey Menear</p>
+      <p> Onde assistir?: Netflix e Amazon Prime</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../images/boneco-do-mal.webp" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Boneco do mal</h1> 
+      <p>Direção: William Brent Bell</p> 
+      <p>Roteiro: Stacey Menear</p>
+      <p> Onde assistir?: Netflix e Amazon Prime</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../images/boneco-do-mal.webp" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Boneco do mal</h1> 
+      <p>Direção: William Brent Bell</p> 
+      <p>Roteiro: Stacey Menear</p>
+      <p> Onde assistir?: Netflix e Amazon Prime</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../images/boneco-do-mal.webp" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
       <h1>Boneco do mal</h1> 

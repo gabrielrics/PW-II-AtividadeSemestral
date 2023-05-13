@@ -5,7 +5,7 @@
         <li> <a href="Comedia.php"> Comédia </a> </li>
         <li> <a href="Romance.php"> Romance </a> </li>
         <li> <a href="nada.php"> nada </a> </li>
-        <li> <a href="Login.php"> Login </a> </li>
+        
 
         <div class="animation start-home">  </div>
     </ul>

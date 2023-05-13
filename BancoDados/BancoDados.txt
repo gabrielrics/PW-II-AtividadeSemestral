@@ -9,11 +9,17 @@ create table tbGenero(
 
 create table tbFilme(
 	idFilme int primary key auto_increment,
-	filme varchar(100),
-    descricao varchar(300),
-    diretor varchar(100),
-    dataLancamento varchar(25),
-    duracao int,
+	NomeFilme varchar(100),
+	Diretor varchar(100),
+	OndeVer varchar(100),
+	Sinopse varchar(300),
 	idGenero int,
 	foreign key (idGenero) references tbGenero(idGenero)
 );
+
+create table tbContato( 
+	idFilme int primary key auto_increment,
+	Email varchar(100),
+	Senha varchar(100), 
+	idGenero int,
+	foreign key (idGenero) references tbGenero(idGenero) );

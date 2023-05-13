@@ -1,7 +1,30 @@
+/* Mudanças padrão */
+
 body{
     margin: 0;
     background-image: url(../images/uni.png);
 }
+
+.Header-old {
+  z-index: 40;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  color: #fff;
+  background-color: black;
+}
+
+h1{
+  text-align: center;
+  color: #30edf4;
+
+}
+
+
+.celula{
+  background: #00f;
+  
+}
+/* Tela de "contato.php" */
 
 section {
   display: flex;
@@ -15,15 +38,17 @@ form {
   flex-direction: column;
   width: 400px;
   padding: 20px;
-  background: linear-gradient(45deg, purple, pink, cyan);
+  /*background: linear-gradient(45deg, #120a8f, #3ff, #7cfc00);*/
+  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
+  border-color: black;
 }
 
 input[type="text"],
 textarea {
   margin-bottom: 10px;
   padding: 10px;
-  background-color: purple;
+  background-color: #120a8f;
   color: white;
   border: none;
   border-radius: 5px;
@@ -35,7 +60,7 @@ textarea::placeholder {
 }
 
 input[type="submit"] {
-  background-color: purple;
+  background-color: black;
   color: white;
   border: none;
   padding: 10px;
@@ -61,4 +86,39 @@ input[type="submit"]:before {
 
 input[type="submit"]:hover:before {
   height: 100%;
+}
+
+/* Botões */
+
+ul 
+  {
+    font-family: "Chivo Mono", monospace;
+    display: flex;
+    gap: 72px;
+    justify-content: center;
+}
+
+ul li
+{
+  list-style: none;
+}
+
+ul li a{
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px;
+  transition: 0.5s ease;
+}
+
+ul:hover li a{
+  color: purple;
+}
+
+ul:hover li a:not(:hover){
+  color:white;
+  opacity: 0.3;
+  filter: blur(1px);
 }

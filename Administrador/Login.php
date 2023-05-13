@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="../CSS/Login.css">
+
 </head>
 
 <body>
@@ -14,12 +15,11 @@
         <span class="Borda"></span>
         <form>
             
-            <!-- <img src="zebraca.png"> -->
 
             <h2>Login</h2>
             <div class="inputbox">
                 <input type="texto" required="Obrigatório">
-                <span>Nome de usuário</span>
+                <span>E-mail de cadastro</span>
                 <i></i>
 
             </div>

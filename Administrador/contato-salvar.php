@@ -1,13 +1,13 @@
 <?php  
-    $nome = $_POST['txNome'];
-    $email = $_POST['txEmail'];
-    $assunto = $_POST['txAssunto'];
-    $mensagem = $_POST['txMensagem'];
+    $NomeFilme = $_POST['txNomeFilme'];
+    $Diretor = $_POST['txDiretor'];
+    $OndeVer = $_POST['txOndeVer'];
+    $Sinopse = $_POST['txSinopse'];
     
     include("conexao.php");
 
-    $stmt = $pdo->prepare("insert into tbcontato 
-    values(null,'$nome','$email','$assunto','$mensagem')");	    
+    $stmt = $pdo->prepare("insert into tbfilme
+    values(null,'$NomeFilme','$Diretor','$OndeVer','$Sinopse','null')");	    
 	$stmt ->execute();    
 
     header("location:contato.php");    

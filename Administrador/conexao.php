@@ -1,8 +1,8 @@
 <?php
 	$servidor="localhost";
-	$banco="dbaula";
+	$banco="filme";
 	$usuario="root";
 	$senha="";
 
-	$pdo = new PDO("mysql:host=$servidor;dbname=$banco",$usuario,$senha);		
+	$pdo = new PDO("mysql:host=$servidor;filme=$banco",$usuario,$senha);		
 ?>

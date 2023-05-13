@@ -6,10 +6,10 @@
 
     include("conexao.php");
 
-    $stmt = $pdo->prepare("delete from tbcontato where idContato = $id");	    
+    $stmt = $pdo->prepare("delete from tbfilme where idfilme = $id");	    
 	$stmt ->execute();    
 
-    header("location:contato-lista.php"); 
+    header("location:contato.php"); 
 
 
 
