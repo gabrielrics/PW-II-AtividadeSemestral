@@ -2,7 +2,9 @@
 
 body{
     margin: 0;
-    background-image: url(../images/uni.png);
+    background-image: url(../images/roxo.webp);
+    background-size: cover;
+    background-position: 30% 45%;
 }
 
 .Header-old {
