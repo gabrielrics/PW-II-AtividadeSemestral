@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: purple;
+    background-image: url(../images/background2.jpg);
     margin:0;
     /* background-image: url(../Images/uni.png); */
   }
@@ -176,7 +176,7 @@ body {
 
 
 
-  /* Botões*/
+  /* Botões do cabeçalho */
 
   ul 
   {
@@ -209,4 +209,13 @@ ul:hover li a:not(:hover){
   color:white;
   opacity: 0.3;
   filter: blur(1px);
+}
+
+
+
+
+.nada{
+  align-items: flex-end;
+  justify-content: center;
+  size: 100px;
 }

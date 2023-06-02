@@ -11,7 +11,7 @@
     NomeFilmeFilme='$NomeFilme',
     DiretorFilme='$Diretor',
     OndeVerFilme='$Diretor',
-    SinopseFilme='$Sinopse'
+    SinopseFilme='$Sinopse',
     where idFilme='$id';
 ");
 	$stmt ->execute();    
