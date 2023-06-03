@@ -18,13 +18,13 @@
 
             <h2>Login</h2>
             <div class="inputbox">
-                <input type="texto" required="Obrigatório">
+                <input type="texto" required="Obrigatório" placeholder="email" name="TxEmail">
                 <span>E-mail de cadastro</span>
                 <i></i>
 
             </div>
             <div class="inputbox">
-                <input type="Senha" required="Obrigatório">
+                <input type="Senha" required="Obrigatório"/>
                 <span>Senha</span>
                 <i></i>
             </div>
