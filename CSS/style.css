@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Images/background.png);
+    margin:0;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    /* background-image: url(../Images/uni.png); */
+  }
+
+  footer{
+    position: absolute;
+    width: 100%;
+    
+  }
+
+  h1{
+    text-align: center;
+    color: #30edf4;  
+  }
+
+  h2{
+    color: white;
+    text-align: center;
+    justify-content: center;
+  }
+
+  p{
+    color: white;
+    size: 10px;
+  }
+
+  .Header-old {
+    z-index: 40;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    color: #fff;
+    background-color: black;
+}
+
+  /*card que vira*/
+
+  .container{
+    
+    display: flex;
+    justify-content: center;
+    border: 2px blue;
+    
+  }
+  
+  .flip-card {
+    display: inline-block;
+    justify-content: center;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 100px;
+    margin: 20px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* Card de terror */
+
+
+  .flip-card-terror {
+    display: inline-block;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    perspective: 100px;
+    margin: 20px;
+    
+  }
+
+  .flip-card-inner-terror {
+    background-image: url(../images/boneco-do-mal.webp);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 200px blue;
+
+  }
+
+  .flip-card-terror:hover .flip-card-inner-terror {
+    transform: rotateY(180deg);
+  }
+
+  /* Card de comédia */
+
+  .flip-card-comedia {
+    display: inline-block;
+    justify-content: center;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin: 20px;
+  }
+
+  .flip-card-inner-comedia {
+    background-image: url(../Images/Comedia\ -\ zootopia.jpg);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .flip-card-comedia:hover .flip-card-inner-comedia {
+    transform: rotateY(180deg);
+  }
+
+  /* Romance */
+
+  .flip-card-romance {
+    display: inline-block;
+    justify-content: center;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin: 20px;
+  }
+
+  .flip-card-inner-romance {
+    background-image: url(../Images/Romance.jpg);
+    background-position: 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .flip-card-romance:hover .flip-card-inner-romance {
+    transform: rotateY(180deg);
+  }
+
+  
+  /* Botões*/
+
+  ul 
+  {
+    font-family: "Chivo Mono", monospace;
+    display: flex;
+    gap: 72px;
+    justify-content: center;
+}
+
+ul li
+{
+  list-style: none;
+}
+
+ul li a{
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px;
+  transition: 0.5s ease;
+}
+
+ul:hover li a{
+  color: purple;
+}
+
+ul:hover li a:not(:hover){
+  color:white;
+  opacity: 0.3;
+  filter: blur(1px);
+}

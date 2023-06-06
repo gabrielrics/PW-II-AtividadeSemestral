@@ -22,10 +22,24 @@ inner join tbGenero g
 on f.idGenero = g.idGenero
 
 
-create table tbUsuario(
-	idUsuario int PRIMARY key AUTO_INCREMENT,
-	emailUsuario varchar(40),
-	senhaUsuario varchar(255)
+create table tbGenero(
+ idGenero int PRIMARY KEY AUTO_INCREMENT,
+ genero varchar(100)
 );
 
-insert into tbUsuario values(null,'admin','admin');
+create table tbFilme(
+	idFilme int PRIMARY key AUTO_INCREMENT,
+	filme varchar(100),
+	diretor varchar(100),
+	duracao varchar(100),
+	sinopse varchar(2000),
+	classificacao varchar(100),
+	anoLancamento varchar(100),
+	idGenero int,
+	imagemPrincipal varchar(1000),
+	imagemInterna varchar(100),
+    FOREIGN key (idGenero) REFERENCES tbGenero(idGenero)
+ );
+
+
+insert into tbgenero values (null,'Comédia'),(null,'Ação');
