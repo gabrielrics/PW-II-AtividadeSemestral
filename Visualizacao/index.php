@@ -5,12 +5,12 @@
 
 <body>
     
-    <h2> 
+    <h2 class="colorido"> 
     Olá, seja bem-vindo ao Purple UNIVERSE, aqui você
     encontrará as informações necessárias para analisar
     o melhor tipo de categoria de filmes para você.
     </h2>
-    <h2> Esse site, conta-se com 3 categorias, sendo elas:</h2>
+    <h2 class="colorido"> Esse site, conta-se com 3 categorias, sendo elas:</h2>
 
     
  
