@@ -4,6 +4,9 @@ use filme;
 
 create table tbGenero(
 	idGenero int primary key auto_increment,
+	terror varchar(200),
+	comedia varchar(200),
+	romance varchar(200),
 	genero varchar(40)
 );
 

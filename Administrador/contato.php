@@ -33,8 +33,12 @@
                 </div>		
 
                 <div>
-                    <input type="text" placeholder="Tempo de filme" name="txTempo" value="<?php echo @$_GET['Onde ver']; ?>" />
-                </div>		
+                    <input type="text" placeholder="Tempo de filme" name="txTempo" value="<?php echo @$_GET['Tempo filme']; ?>" />
+                </div>
+                
+                <div>
+                    <input type="text" placeholder="link da imagem" name="txImage" value="<?php echo @$_GET['Imagem']; ?>" />
+                </div>
 
 
                 <div>
@@ -43,7 +47,7 @@
                     </textarea>
                 </div>
 
-                <div>
+                <div class="">
                     <input type="submit" value="Salvar" />
                 </div>
             </form>

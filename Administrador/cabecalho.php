@@ -10,7 +10,7 @@
 
     <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-3" role="banner"> 
         
-    <h1> PURPLE -- UNIVERSE -- ADMINISTRADOR </h1>
+    <h1 class="Purple"> PURPLE -- UNIVERSE -- ADMINISTRADOR </h1>
 
     <?php include("menu.php"); ?>
     </header>

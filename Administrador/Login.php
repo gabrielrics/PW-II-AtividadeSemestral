@@ -30,7 +30,6 @@
                 <i></i>
             </div>
             <div class="Links">
-                <!--Colocar o link onde está o "#"-->
 
                 <a href="#">Esqueci a senha</a>
                 <h3>ou</h3>
@@ -46,7 +45,6 @@
         </form>
 
     </div>
-    <!-- <img src="zebra.png" style="float:left; width: 400px; height: 500px;"> -->
 </body>
 
 </html>

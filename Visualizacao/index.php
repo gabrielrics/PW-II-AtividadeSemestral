@@ -18,53 +18,42 @@
   <div class="container">
     <div class="Flex-container">
 
+
+<!-- Imagem de "Terror" que, quando a pessoa clicar, vai para a página "Terror.php" -->
+        <a href="Terror.php">
           <div class="flip-card-terror">
             <div class="flip-card-inner-terror">
-              <div class="flip-card-front-terror">
+
               <h2> TERROR </h2>
-              </div>
-              <div class="flip-card-back">
-                <h1>Sobre:</h1> 
-                <p>
-                  As recomendações de terror, serão as mais assustadoras ja vistas e avaliadas.
-                  Sejam eles, clássicos ou atuais
-                </p> 
-                <p> Atenção, todos os filmes abordados serão tidos com boas avaliações</p>
-
-
-              </div>
+            
             </div>
           </div>
+        </a> 
 
+<!-- Imagem de "Comédia" que, quando a pessoa clicar, vai para a página "Comedia.php" -->
+
+        <a href="Comedia.php">
           <div class="flip-card-comedia">
             <div class="flip-card-inner-comedia">
-              <div class="flip-card-front-comedia">
+
               <h2> COMÉDIA </h2>
-              </div>
-              <div class="flip-card-back">
-                <h1>Sobre:</h1> 
-                <p>As recomendações dos filmes de comédia, lhe farão dar as maiores e melhores risadas da sua vida</p> 
-                
-                <p> Atenção, todos os filmes abordados serão tidos com boas avaliações</p>
-              </div>
+            
             </div>
           </div>
+        </a> 
 
+<!-- Imagem de "Romance" que, quando a pessoa clicar, vai para a página "Romance.php" -->
 
+        <a href="Romance.php">
           <div class="flip-card-romance">
             <div class="flip-card-inner-romance">
-              <div class="flip-card-front-romance">
-              <h2> Romance </h2>
-              </div>
-              <div class="flip-card-back">
-                <h1>Sobre:</h1> 
-                <p>As recomendações dos filmes de romance, lhe faram chorar mais que a conta que o IR ja te fez :)</p> 
-                
-                <p> Atenção, todos os filmes abordados serão tidos com boas avaliações </p>
-              </div>
-            </div>
-          </div>
 
+              <h2> Romance </h2>
+            
+            </div>   
+          </div>
+        </a>
+        
     </div>
 </div>
 

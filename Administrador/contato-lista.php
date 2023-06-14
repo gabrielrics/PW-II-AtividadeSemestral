@@ -22,6 +22,8 @@
                 <th scope="col">OndeVer</th>
                 <th scope="col">Sinopse</th>
                 <th scope="col">Tempo</th>
+                <th scope="col">Imagem</th>
+                <th scope="col">Gênero</th>
                 <th scope="col">Ações</th>
 
                 
@@ -34,15 +36,16 @@
                 
                 while($row = $stmt ->fetch(PDO::FETCH_BOTH)){
                   echo "<tr class='celula'>";
-                    echo "<td> $row[0] </td>";						
                     echo "<td> $row[1] </td>";						
                     echo "<td> $row[2] </td>";						
                     echo "<td> $row[3] </td>";											
                     echo "<td> $row[4] </td>";
                     echo "<td> $row[5] </td>";
                     echo "<td> $row[6] </td>";
+                    echo "<td> $row[7] </td>";
+                    echo "<td> $row[8] </td>";
                     echo "<td> 
-                            <a href='?id=$row[0]&nomefilme=$row[1]&diretor=$row[2]&ondever=$row[3]&Sinopse=$row[4]&Tempo=$row[5]&acoes=$row[5]'> Editar </a>
+                            <a href='?id=$row[0]&nomefilme=$row[1]&diretor=$row[2]&ondever=$row[3]&Sinopse=$row[4]&Tempo=$row[5]&Image=$row[6]&Genero=$row[7]&acoes=$row[8]'> Editar </a>
                             <a href='contato-remover.php?id=$row[0]'> Remover </a>
                           </td>";
                   echo "</tr>";

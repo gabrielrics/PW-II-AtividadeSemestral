@@ -4,6 +4,7 @@
     $OndeVer = $_POST['txOndeVer'];
     $Sinopse = $_POST['txSinopse'];
     $Tempo = $_POST['txTempo'];
+    $Image = $_POST['txImage'];
     $id = $_POST['txIdContato'];
 
     include("conexao.php");
@@ -14,7 +15,8 @@
             Diretor = :diretor,
             OndeVer = :ondever,
             Sinopse = :sinopse,
-            Tempo = :tempo
+            Tempo = :tempo,
+            Image = :image,
             WHERE idFilme = :id
     ");
     $stmt->bindParam(':nome', $NomeFilme);
@@ -22,6 +24,7 @@
     $stmt->bindParam(':ondever', $OndeVer);
     $stmt->bindParam(':sinopse', $Sinopse);
     $stmt->bindParam(':tempo', $Tempo);
+    $stmt->bindParam(':image', $Image);
     $stmt->bindParam(':id', $id);
     $stmt->execute();
 
