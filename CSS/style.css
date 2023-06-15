@@ -13,7 +13,7 @@ body {
 
   h1{
     text-align: center;
-    color: #30edf4;  
+    color: purple;  
   }
 
   h2{
@@ -27,9 +27,17 @@ body {
     size: 10px;
   }
 
-  h2 .colorido{
-    text-shadow: 2px 2px 5px purple;
+  .nada {
+    text-align:left;
     color: black;
+    font-style: italic;
+    text-shadow: 2px 2px 5px purple;
+  }
+
+  h2 .colorido{
+    text-shadow: 2px 2px 5px blue;
+    color: black;
+
   }
 
   .Header-old {
@@ -106,16 +114,15 @@ body {
   }
 
   .flip-card-inner-terror {
-    background-image: url(../images/boneco-do-mal.webp);
+    background-color: transparent;
     position: relative;
-    /*Eu troquei o 
-    'width: 300px;' e 'height: 200px;' pelo 'padding'. */
     padding: 150px 50px;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10%;
   }
 
-
+  
 
   /* Card de comédia */
 
@@ -132,8 +139,7 @@ body {
   .flip-card-inner-comedia {
     background-image: url(../Images/Comedia\ -\ zootopia.jpg);
     position: relative;
-    width: 100%;
-    height: 100%;
+    padding: 150px 50px;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
@@ -156,8 +162,7 @@ body {
     background-image: url(../Images/Romance.jpg);
     background-position: 100%;
     position: relative;
-    width: 100%;
-    height: 100%;
+    padding: 150px 50px;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
@@ -200,3 +205,27 @@ ul:hover li a:not(:hover){
   opacity: 0.3;
   filter: blur(1px);
 }
+
+
+/* TODOS OS FILMES DE TERROR */
+
+/* 1- Poltergeist*/
+
+.poltergeist {
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10%;
+  border: 3px solid purple;
+  /*Para deixar com degradê
+  border-image: linear-gradient(to right, purple, #ff00ff, #f5f5f5) 1 ; */
+}
+
+.poltergeist img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* 2- Poltergeist*/
