@@ -5,6 +5,7 @@
     $Sinopse = $_POST['txSinopse'];
     $ImageInicio = $_POST['txImageInicio'];
     $ImagePrincipal = $_POST['txImageFinal'];
+    $Genero = $_POST['txGenero'];
     $Tempo = $_POST['txTempo'];
     
     include("conexao.php");
@@ -16,3 +17,4 @@
     header("location:contato.php");    
     
 ?>
+

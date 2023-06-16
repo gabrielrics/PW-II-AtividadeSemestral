@@ -6,6 +6,7 @@
     $ImageInicio = $_POST['txImageInicio'];
     $ImagePrincipal = $_POST['txImageFinal'];
     $Tempo = $_POST['txTempo'];
+    $Genero = $_POST['txGenero'];
     $id = $_POST['txIdContato'];
 
     include("conexao.php");
@@ -19,6 +20,7 @@
             ImageInicio = :imageInicio,
             ImagePrincipal =:imagePrincipal,
             Tempo = :tempo,
+            Genero = :genero,
             WHERE idFilme = :id
     ");
     $stmt->bindParam(':nome', $NomeFilme);
@@ -28,6 +30,7 @@
     $stmt->bindParam(':imageInicio', $ImageInicio);
     $stmt->bindParam(':imagePrincipal', $ImagePrincipal);
     $stmt->bindParam(':tempo', $Tempo);
+    $stmt->bindParam(':genero', $Genero);
     $stmt->bindParam(':id', $id);
     $stmt->execute();
 
