@@ -14,6 +14,59 @@
 <body>
 
     <section>
+
+            <form action="contato-salvar.php" method="post">      
+                <div>
+                    <input type="hidden"  name="txIdContato" value="<?php echo @$_GET['idFilme']; ?>" />
+                </div>	
+
+                <div>
+                    <input type="text" placeholder="Nome do filme" name="txNomeFilme" value="<?php echo @$_GET['NomeFilme']; ?>" />
+                </div>		
+
+                <div>
+                    <input type="text" placeholder="Diretor" name="txDiretor" value="<?php echo @$_GET['Diretor']; ?>" />
+                </div>		
+
+                <div>
+                    <input type="text" placeholder="Onde ver" name="txOndeVer" value="<?php echo @$_GET['Onde ver']; ?>" />
+                </div>		
+
+                <div>
+                    <input type="text" placeholder="Tempo de filme" name="txTempo" value="<?php echo @$_GET['Tempo filme']; ?>" />
+                </div>
+                
+                <div>
+                    <input type="text" placeholder="link da imagem de início" name="txImageInicio" value="<?php echo @$_GET['imagem de início']; ?>" />
+                </div>
+
+                <div>
+                    <input type="text" placeholder="link da imagem principal" name="txImagePrincipal" value="<?php echo @$_GET['imagem principal']; ?>" />
+                </div>
+
+                <div>
+                    <input type="text" placeholder="Coloque o gênero" name="txGenero" value="<?php echo @$_GET['Genero']; ?>" />
+                </div>
+
+                <div>
+                    <textarea placeholder="Sinopse" name="txSinopse">
+                    <?php echo @$_GET['Sinopse'];?> </textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Salvar" />
+                </div>
+            </form>
+            
+  
+
+
+
+
+
+
+
+ 
         <table class="table table-striped">
             <thead>
             <tr>
@@ -22,7 +75,8 @@
                 <th scope="col">OndeVer</th>
                 <th scope="col">Sinopse</th>
                 <th scope="col">Tempo</th>
-                <th scope="col">Imagem</th>
+                <th scope="col">Imagem início</th>
+                <th scope="col">Imagem Principal</th>
                 <th scope="col">Gênero</th>
                 <th scope="col">Ações</th>
 
@@ -44,8 +98,10 @@
                     echo "<td> $row[6] </td>";
                     echo "<td> $row[7] </td>";
                     echo "<td> $row[8] </td>";
+                    echo "<td> $row[9] </td>";
+                    
                     echo "<td> 
-                            <a href='?id=$row[0]&nomefilme=$row[1]&diretor=$row[2]&ondever=$row[3]&Sinopse=$row[4]&Tempo=$row[5]&Image=$row[6]&Genero=$row[7]&acoes=$row[8]'> Editar </a>
+                            <a href='?id=$row[0]&nomefilme=$row[1]&diretor=$row[2]&ondever=$row[3]&Sinopse=$row[4]&Tempo=$row[5]&ImageInicio=$row[6]&ImagePrincipal=$row[7]&Genero=$row[8]&acoes=$row[9]'> Editar </a>
                             <a href='contato-remover.php?id=$row[0]'> Remover </a>
                           </td>";
                   echo "</tr>";
@@ -55,7 +111,7 @@
         </table>
     </section>
 
-  
+
     
 </body>
 </html>

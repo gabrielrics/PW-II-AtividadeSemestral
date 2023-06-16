@@ -12,6 +12,9 @@
 </head>
 
 <body>
+
+<!-- CADASTRO DE LOGIN -->
+
     <div class="box">
         <span class="Borda"></span>
         <form>
@@ -30,16 +33,57 @@
                 <i></i>
             </div>
             <div class="Links">
-
-                <a href="#">Esqueci a senha</a>
-                <h3>ou</h3>
-                <a href="#">Realizar cadastro</a>
                 
 
             </div>
 
             <div class="Button">
                 <input type="submit" value="Login">
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+    <div> 
+        <h1 class="ou"> OU </h1>
+    </div>    
+
+
+
+    <!-- TELA DE CADASTRO -->
+
+    <div class="box">
+        <span class="Borda"></span>
+        <form>
+            
+
+            <h2>Cadastro</h2>
+            <div class="inputbox">
+                <input type="texto" required="Obrigatório">
+                <span>Digite seu e-mail</span>
+                <i></i>
+
+            </div>
+            <div class="inputbox">
+                <input type="Senha" required="Obrigatório">
+                <span>Defina uma senha</span>
+                <i></i>
+            </div>
+            <div class="inputbox">
+                <input type="Senha" required="Obrigatório">
+                <span>Repita essa uma senha</span>
+                <i></i>
+            </div>
+            <div class="Links">
+                
+
+            </div>
+
+            <div class="Button">
+                <input type="submit" value="Cadastrar">
             </div>
 
         </form>

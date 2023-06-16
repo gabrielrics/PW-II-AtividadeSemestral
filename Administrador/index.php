@@ -44,6 +44,9 @@
                                         f.Diretor
                                         f.OndeVer
                                         f.Sinopse
+                                        f.tempo
+                                        f.imageInicio
+                                        f.imagePrincipal
                                         f.idGenero, 
                                         g.genero
                                         FROM tbfilme f
@@ -57,10 +60,10 @@
             <figure style="float:left;">
                 <img src="" />
                 <figcaption>        
-                    <h1> <?php echo $row[1] ?> </h1>   
+                    <h1> <?php echo $row[7] ?> </h1>   
                     <h2> Nome do filme </h2>   
                     <h3> Descrição </h3>   
-                    <p> <?php echo $row[3] ?> </p>   
+                    <p> <?php echo $row[4] ?> </p>   
                 </figcaption>
             </figure>
 

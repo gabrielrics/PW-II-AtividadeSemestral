@@ -24,6 +24,10 @@ img{
 
 }
 
+.ou{
+    color: #ff007f;
+}
+
 body
 {
     display: flex;

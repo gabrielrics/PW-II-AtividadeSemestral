@@ -17,7 +17,8 @@ create table tbFilme(
 	OndeVer varchar(100),
 	Sinopse varchar(300),
 	tempo varchar(20),
-	image varchar(255),
+	imageInicio varchar(255),
+	imagePrincipal varchar(255),
 	idGenero int,
 	foreign key (idGenero) references tbGenero(idGenero)
 );
