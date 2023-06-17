@@ -121,3 +121,18 @@ ul:hover li a:not(:hover){
 .celula{
   background-color: aqua;
 }
+
+
+select .cars{
+  background-color: #00f;
+}
+
+.Terror,
+.Comedia,
+.Romance{
+  background-color: #00f;
+}
+
+label .cars{ 
+  font-size: 26px;
+}

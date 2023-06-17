@@ -40,6 +40,7 @@
                     <input type="text" placeholder="link da imagem de início" name="txImageInicio" value="<?php echo @$_GET['imagem de início']; ?>" />
                 </div>
 
+
                 <div>
                     <input type="text" placeholder="link da imagem Principal" name="txImagePrincipal" value="<?php echo @$_GET['imagem Principal']; ?>" />
                 </div>
