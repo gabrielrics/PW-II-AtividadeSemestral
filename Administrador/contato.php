@@ -47,6 +47,15 @@
 
 
                 <div>
+                    <select name="genero" id="genero">
+                        <option value="1">Terror</option>
+                        <option value="2">Comédia</option>
+                        <option value="3">Romance</option>
+                    </select>
+                </div>
+
+
+                <div>
                     <textarea placeholder="Sinopse" name="txSinopse">
                     <?php echo @$_GET['Sinopse']; ?>"
                     </textarea>

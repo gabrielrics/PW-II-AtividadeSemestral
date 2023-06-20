@@ -45,7 +45,12 @@
                 </div>
 
                 <div>
-                    <input type="text" placeholder="Coloque o gênero" name="txGenero" value="<?php echo @$_GET['Genero']; ?>" />
+                    <select name="idGenero" id="genero">
+                        <option value="1">Terror</option>
+                        <option value="2">Comédia</option>
+                        <option value="3">Romance</option>
+                    </select>
+                    
                 </div>
 
                 <div>
@@ -58,13 +63,8 @@
                 </div>
             </form>
             
-  
 
-
-
-
-
-
+<!-- Essa é a parte que será exibido o banco de dados -->
 
  
         <table class="table table-striped">
@@ -98,10 +98,9 @@
                     echo "<td> $row[6] </td>";
                     echo "<td> $row[7] </td>";
                     echo "<td> $row[8] </td>";
-                    echo "<td> $row[9] </td>";
                     
                     echo "<td> 
-                            <a href='?id=$row[0]&nomefilme=$row[1]&diretor=$row[2]&ondever=$row[3]&Sinopse=$row[4]&Tempo=$row[5]&ImageInicio=$row[6]&ImagePrincipal=$row[7]&Genero=$row[8]&acoes=$row[9]'> Editar </a>
+                            <a href='?id=$row[0]&NomeFilme=$row[1]&Diretor=$row[2]&OndeVer=$row[3]&Sinopse=$row[4]&tempo=$row[5]&imageInicio=$row[6]&imagePrincipal=$row[7]&Genero=$row[8]'> Editar </a>
                             <a href='contato-remover.php?id=$row[0]'> Remover </a>
                           </td>";
                   echo "</tr>";
