@@ -58,6 +58,8 @@
                     <?php echo @$_GET['Sinopse'];?> </textarea>
                 </div>
 
+                
+
                 <div>
                     <input type="submit" value="Salvar" />
                 </div>
